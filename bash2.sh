@@ -1,12 +1,5 @@
 #!/bin/bash  
 
-echo "~~[JW installation started]~~"
-echo
-echo "[Updating system]"
-sudo apt install -y jq
-apt update
-echo
-
 # Function to check command success
 check_command() {
     if [ $? -ne 0 ]; then
@@ -364,9 +357,6 @@ echo "You should see the service as 'active (running)' above. If not, use ${CONT
 echo
 echo "You can access your new instance now at http://${IP_ADDRESS}:8096 in your web browser to finish setting up Jellyfin."
 echo
-
-
-
 
 
 
