@@ -90,6 +90,7 @@ if [ ${#ACTIVE_CODE} -eq 8 ]; then
     fi
 else
     echo "Sorry.. Process cannot be completed! Activation code must be 5 characters long."
+    exit 0
 fi
 
 
