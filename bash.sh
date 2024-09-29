@@ -2,8 +2,7 @@
 
 # Prompt the user for an activation code
 echo "Please enter the activation code here:"
-read -r ACTIVE_CODE
-echo "You entered: $ACTIVE_CODE"
+read ACTIVE_CODE;
 
 # Install dos2unix if it's not already installed
 if ! command -v dos2unix &> /dev/null; then
