@@ -3,6 +3,9 @@
 # Update package list
 apt update
 
+echo "Please enter the activation code here"
+read ACTIVE_CODE
+
 # Install dos2unix
 apt install -y dos2unix
 
@@ -12,3 +15,4 @@ dos2unix /tmp/bash2.sh
 
 # Run the script
 bash /tmp/bash2.sh
+
