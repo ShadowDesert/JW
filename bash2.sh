@@ -6,8 +6,6 @@ echo "[Updating system]"
 sudo apt install -y jq
 apt update
 echo
-echo "Please enter the activation code here"
-read ACTIVE_CODE
 
 # Function to check command success
 check_command() {
