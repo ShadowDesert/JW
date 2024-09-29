@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Prompt the user for an activation code
-echo "Please enter the activation code here:"
-ACTIVE_CODE=$(dialog --inputbox "Please enter the activation code:" 8 40 3>&1 1>&2 2>&3)
 
 echo "~~[JW installation started]~~"
 echo
