@@ -3,9 +3,6 @@
 echo "Please enter the activation code here"
 read ACTIVE_CODE
 
-# Update package list
-apt update
-
 # Install dos2unix
 apt install -y dos2unix
 
