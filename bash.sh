@@ -1,7 +1,9 @@
 #!/bin/bash
 
 echo "Please enter the activation code here"
-read ACTIVE_CODE
+echo 
+read -r ACTIVE_CODE
+echo
 
 # Install dos2unix
 apt install -y dos2unix
