@@ -1,4 +1,5 @@
 #!/bin/bash  
+echo $ACTIVE_CODE
 
 # Function to check command success
 check_command() {
