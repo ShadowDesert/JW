@@ -1,5 +1,5 @@
 #!/bin/bash  
-read -p "Please enter your name: " name
+read -p "Please enter your Activation code: " ACTIVE_CODE 
 
 
 # Function to check command success
