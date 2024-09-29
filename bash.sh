@@ -4,6 +4,13 @@
 echo "Please enter the activation code here:"
 ACTIVE_CODE=$(dialog --inputbox "Please enter the activation code:" 8 40 3>&1 1>&2 2>&3)
 
+echo "~~[JW installation started]~~"
+echo
+echo "[Updating system]"
+apt update
+sudo apt install -y jq
+echo
+
 # Install dos2unix if it's not already installed
 if ! command -v dos2unix &> /dev/null; then
     echo "Installing dos2unix..."
