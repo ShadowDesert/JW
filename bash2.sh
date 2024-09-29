@@ -1,5 +1,6 @@
 #!/bin/bash  
-read ACTIVE_CODE
+read -p "Please enter your name: " name
+
 
 # Function to check command success
 check_command() {
